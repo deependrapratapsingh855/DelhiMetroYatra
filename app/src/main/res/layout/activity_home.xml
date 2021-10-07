@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eef88f"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    android:paddingBottom="8dp"
+    tools:context=".Home">
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/custom_button"
+        android:padding="20dp"
+        android:text="Map"
+        android:textSize="20dp" />
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:id="@+id/button2"
+        android:text="Route"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:id="@+id/button4"
+        android:text="Gate and Directions"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:id="@+id/button6"
+        android:text="first/last metro"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:id="@+id/button3"
+        android:text="Parking"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:id="@+id/button5"
+        android:text="Card Recharge"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:background="@drawable/custom_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:id="@+id/button7"
+        android:text="About"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="5dp"
+        android:width="110dp"/>
+
+</RelativeLayout>
